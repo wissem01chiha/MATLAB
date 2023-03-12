@@ -6,10 +6,7 @@ To use this code, simply run the main.m script in MATLAB. This script reads in t
 
 Requirements
 This code requires MATLAB and the Control System Toolbox.
-
-Data Format
-The data.csv file should contain two columns of data: the input data and the output data, separated by a comma. Each row represents a single time step.
-
+ 
 LRS Method
 The LRS method estimates the system parameters recursively using a set of input and output data. The estimated parameters at each time step are used to update the estimate for the next time step. This process continues until all data has been processed.
 
@@ -19,10 +16,6 @@ The Kalman filter is an algorithm that estimates the state of a system based on 
 Results
 The main.m script generates a plot that shows the original data along with the estimated time constant and gain using both the LRS method and Kalman filter. The plot also shows the error between the estimated parameters and the true parameters of the system.
 
-References
-This code is based on the following references:
 
-Least Squares Method for System Identification
-Kalman Filter
 License
 This code is released under the MIT license. See the LICENSE file for more information.
