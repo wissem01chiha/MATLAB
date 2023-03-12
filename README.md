@@ -18,4 +18,4 @@ Results
 The main.m script generates a plot that shows the original data along with the estimated time constant and gain using both the LRS method and Kalman filter. The plot also shows the error between the estimated parameters and the true parameters of the system.
 
 License
-This code is released under the MIT license. See the LICENSE file for more information.
+This code is released under the GNU General Public License v3.0. See the LICENSE file for more information.
