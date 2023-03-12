@@ -1,21 +1,20 @@
-Least Recursive Square Method and Kalman Filter for First-Order Systems
+Control-System-Analysis-and-Identification-with-MATLAB
 
-This MATLAB code implements two algorithms for estimating the parameters of a first-order system: the least recursive square (LRS) method and the Kalman filter. Both algorithms use a set of input and output data to estimate the system's time constant and gain.
+This is a MATLAB package that provides a set of tools for analyzing and identifying control systems. The package includes functions for designing and analyzing feedback control systems, as well as tools for identifying the parameters of unknown systems based on input-output data.
 
+Features
+Feedback control system design using classical and modern techniques, including root locus, Bode plots, Nyquist plots, and pole placement.
+System identification using various methods, including least squares, recursive least squares, and the Kalman filter.
+Model order reduction techniques, such as balanced truncation and singular value decomposition.
+Visualization tools for analyzing system performance, including time-domain and frequency-domain plots.
 Usage
-To use this code, simply run the main.m script in MATLAB. This script reads in the input and output data from the file data.csv, and then applies both the LRS method and Kalman filter to estimate the system parameters. The estimated parameters are then plotted on a graph along with the original data.
+To use this package, simply clone the repository to your local machine and add the package directory to your MATLAB path. The package includes a set of example scripts that demonstrate the use of the various functions and tools.
 
 Requirements
-This code requires MATLAB and the Control System Toolbox.
+This package requires MATLAB and the Control System Toolbox.
 
-LRS Method
-The LRS method estimates the system parameters recursively using a set of input and output data. The estimated parameters at each time step are used to update the estimate for the next time step. This process continues until all data has been processed.
-
-Kalman Filter
-The Kalman filter is an algorithm that estimates the state of a system based on a set of noisy input and output data. In this implementation, the Kalman filter is used to estimate the time constant and gain of the first-order system.
-
-Results
-The main.m script generates a plot that shows the original data along with the estimated time constant and gain using both the LRS method and Kalman filter. The plot also shows the error between the estimated parameters and the true parameters of the system.
+Contributions
+Contributions to this package are welcome! If you find a bug or have a feature request, please open an issue on the GitHub repository.
 
 License
-This code is released under the GNU General Public License v3.0. See the LICENSE file for more information.
+This package is released under the MIT license. See the LICENSE file for more information.
