@@ -18,4 +18,5 @@ Contributions
 Contributions to this package are welcome! If you find a bug or have a feature request, please open an issue on the GitHub repository.
 
 License
+
 This package is released under the GNU General Public License v3.0 .See the LICENSE file for more information.
