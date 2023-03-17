@@ -6,8 +6,7 @@ Features
 
 Feedback control system design using classical and modern techniques, including root locus, Bode plots, Nyquist plots, and pole placement.
 System identification using various methods, including least squares, recursive least squares, and the Kalman filter.
-Model order reduction techniques, such as balanced truncation and singular value decomposition.
-Visualization tools for analyzing system performance, including time-domain and frequency-domain plots.
+ 
 Usage
 To use this package, simply clone the repository to your local machine and add the package directory to your MATLAB path. The package includes a set of example scripts that demonstrate the use of the various functions and tools.
 
@@ -19,4 +18,4 @@ Contributions
 Contributions to this package are welcome! If you find a bug or have a feature request, please open an issue on the GitHub repository.
 
 License
-This package is released under the GNU General Public License v3.0 . See the LICENSE file for more information.
+This package is released under the GNU General Public License v3.0 .See the LICENSE file for more information.
