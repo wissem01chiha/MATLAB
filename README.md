@@ -1,7 +1,9 @@
 #  Control Systems Repository 
 
-Control Systems : a git repository that provides a collection of tools for analyzing control systems. 
-The package includes functions for designing and analyzing feedback control systems, as well as tools for identifying the parameters of unknown systems based on input-output data.
+Control Systems : a git repository provides a collection of MATLAB codes for analyzing control systems. 
+The package includes functions for designing and analyzing feedback control systems,  
+
+tools for identifying the parameters of unknown systems based on input-output data,
 
 # Features
 
